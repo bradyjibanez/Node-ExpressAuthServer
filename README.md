@@ -1,6 +1,6 @@
 # Node-ExpressAuthServer
 
-This Express server provides an authentication service for a profile framework where users are able to create user accounts, and environment profiles if they choose. The user account provides the ability for user authentication within an application using JWT generation, as well as profile updating, retrieval, and deleting. The environment server allows for environment creation, claiming, retrieval, and updating. User invitation and inclusion aside from the creating admin is still to come. 
+This Express server provides an authentication service for a profile framework where users are able to create user accounts, and environment profiles if they choose. The user account provides the ability for user authentication within an application using JWT generation, as well as profile updating, retrieval, and deleting. The environment server allows for environment creation, claiming, retrieval, and updating. User invitation and inclusion aside from the creating admin is still to come. The is implimented through the use of MongoDB for creation and update maintenance, and does so through the use of the mongoose npm package. Your DB configuration is maintained in config.json of the root directory. 
 
 ## Usage
 
@@ -23,6 +23,11 @@ To run the server with nodemon for continuous update sync:
 ```bash
 nodemon server.js
 ```
+
+In order to alter addressing and routing for the server, edits should be made to server.js, and config.json in the root directory accordingly.
     
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## References
+Watmore, Jason. “Angular 6 - JWT Authentication Example &amp; Tutorial.” Jason Watmore's Blog, 23 May 2018, jasonwatmore.com/post/2018/05/23/angular-6-jwt-authentication-example-tutorial.
