@@ -30,4 +30,4 @@ In order to alter addressing and routing for the server, edits should be made to
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## References
-Watmore, Jason. “Angular 6 - JWT Authentication Example &amp; Tutorial.” Jason Watmore's Blog, 23 May 2018, jasonwatmore.com/post/2018/05/23/angular-6-jwt-authentication-example-tutorial.
+Watmore, Jason. “Angular 6 - JWT Authentication Example &amp; Tutorial.” Jason Watmore's Blog, 23 May 2018, (jasonwatmore.com/post/2018/05/23/angular-6-jwt-authentication-example-tutorial).
