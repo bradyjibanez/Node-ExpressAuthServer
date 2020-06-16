@@ -5,22 +5,22 @@ This Express server provides an authentication service for a profile framework w
 ## Usage
 
 All required npm packages can be installed upon cloning of this server using the standard
-'''bash
+```bash
 npm install
-'''
+```
  
 It is recommended to install nodemon as a dev-dependency for development update continuity when making changes
-'''bash
+```bash
 npm install --save-dev nodemon
-'''
+```
 
 To run the server stock, run this command from the root directory:
-'''bash
+```bash
 node server.js
-'''
+```
 
 To run the server with nodemon for continuous update sync:
-'''bash
+```bash
 nodemon server.js
-'''
+```
     
