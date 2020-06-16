@@ -24,3 +24,5 @@ To run the server with nodemon for continuous update sync:
 nodemon server.js
 ```
     
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
