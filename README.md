@@ -1,6 +1,6 @@
 # Node-ExpressAuthServer
 
-This Express server provides an authentication service for a profile framework where users are able to create user accounts, and environment profiles if they choose. The user account provides the ability for user authentication within an application using JWT generation, as well as profile updating, retrieval, and deleting. The environment server allows for environment creation, claiming, retrieval, and updating. User invitation and inclusion aside from the creating admin is still to come. The is implimented through the use of MongoDB for creation and update maintenance, and does so through the use of the mongoose npm package. Your DB configuration is maintained in config.json of the root directory. 
+This Express server provides an authentication service for a profile framework where users are able to create user accounts, and environment profiles if they choose. The user account provides the ability for user authentication within an application using JWT generation, as well as profile updating, retrieval, and deleting. The environment server allows for environment creation, claiming, retrieval, and updating. User invitation and inclusion aside from the creating admin is still to come. The is implimented through the use of MongoDB for dataset creation and update maintenance, and does so through the use of the mongoose npm package. The DB configuration is maintained in config.json of the root directory. 
 
 ## Usage
 
